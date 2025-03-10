@@ -1,0 +1,165 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+
+.index-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,auto);
+}
+
+.index-grid-item1 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.index-grid-item2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.index-grid-item2 img {
+    width: 100%;
+    height:100%;
+}
+
+.index-grid-item3 {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    justify-self: stretch;
+    align-self: stretch;
+    background-color: rgb(27,68,127);
+    color: white;
+    padding: 5rem 6rem;
+}
+
+.index-grid-item3 h3 {
+    color: rgb(236,183,34);
+}
+
+th, tr {
+    padding: 12px 12px;
+}
+
+td {
+    text-align: right;
+}
+
+.a101-class {
+    background-color: blueviolet;
+}
+
+.a102-class {
+    background-color: darkgoldenrod
+}
+
+button {
+    color: white;
+}
+
+.index-grid-item4 {
+    grid-column: 2/5;
+    grid-row: 3/4;
+    align-self:center;
+    justify-self: center;
+    padding: 3rem 0rem;
+    color: rgb(68,68,68);
+    display: flex;
+}
+
+.index-grid-item4 section {
+    align-content: center;
+    padding-left: 3rem;
+}
+
+.index-grid-item5 {
+    grid-column:1/6;
+    grid-row: 4/5;
+    padding: 2rem 5rem;
+    color: rgb(68,68,68);
+}
+
+.index-grid-item6 {
+    grid-column:1/6;
+    grid-row: 5/6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3,163,223);
+    padding: 30px 50px;
+}
+
+.header-nav ul {
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+    color: white;
+}
+
+.header-nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background: url("../images-videos/footerImage.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 40px;
+    color: white;
+    font-size: smaller;
+}
+
+.footer-nav ul {
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-start;
+    list-style-type: none;
+    color: white;
+    padding: 0px;
+}
+
+.services-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    color: rgb(68,68,68);
+    padding: 2rem 5rem;
+}
+
+.services-flex-container { 
+    display: flex;
+    align-content: space-between;
+}
+
+article {
+    padding: 1rem 3rem;
+    width: 50%;
+}
+
+.calendar-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(27,68,127);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 5rem;
+}
+
+.calendar-section article {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 3rem;
+}
