@@ -53,11 +53,21 @@ td {
 }
 
 .a102-class {
-    background-color: darkgoldenrod
+    background-color: #956E09;
 }
 
 button {
     color: white;
+}
+
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0;
 }
 
 .index-grid-item4 {
@@ -90,7 +100,7 @@ button {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(3,163,223);
+    background-color: #037EAB;
     padding: 30px 50px;
 }
 
@@ -99,6 +109,7 @@ header {
     column-gap: 20px;
     list-style-type: none;
     color: white;
+    font-size: larger;
 }
 
 .header-nav ul a {
